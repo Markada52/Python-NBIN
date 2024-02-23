@@ -1,6 +1,3 @@
-# Python-NBIN
-Open source Python library repository for working with NBIN
-
 ## What is NBIN
 
 NBIN is a data serialization format that aims to make it easier to create and store bytecode for arbitrary programming languages. For this purpose, it has special data types, as well as its own binary file structure
@@ -138,4 +135,3 @@ func = Block([
 ```
 
 **Only a list of commands can be passed into it!**
-

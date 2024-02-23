@@ -1,0 +1,18 @@
+<i8>      ::= 00h <byte>{1}
+<i16>     ::= 01h <byte>{2}
+<i32>     ::= 02h <byte>{4}
+<i64>     ::= 03h <byte>{8}
+<u8>      ::= 05h <byte>{1}
+<u16>     ::= 06h <byte>{2}
+<u32>     ::= 07h <byte>{4}
+<u64>     ::= 09h <byte>{8}
+<float>   ::= 10h <byte>{4}
+<bool>    ::= 11h <byte>
+<str>     ::= 12h <lenght> <byte>+
+<null>    ::= 13h
+<list>    ::= 14h <lenght> <exp>+
+<block>   ::= 15h <lenght> <command>+
+<command> ::= 16h <lenght> <byte>+ <lenght> <exp>+
+
+# unsigned int
+<lenght> ::= <byte>{4}
