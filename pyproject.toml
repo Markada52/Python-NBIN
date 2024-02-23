@@ -25,9 +25,7 @@ classifiers = [
 ]
 
 
-# [project.urls]
-# Homepage = "https://example.com"
-# Documentation = "https://readthedocs.org"
-# Repository = "https://github.com/me/spam.git"
-# "Bug Tracker" = "https://github.com/me/spam/issues"
-# Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+[project.urls]
+Changelog = "https://github.com/Markada52/Python-NBIN/blob/main/CHANGELOG.md"
+Repository = "https://github.com/Markada52/Python-NBIN.git"
+Documentation = "https://pypi.org/project/NBIN/"
